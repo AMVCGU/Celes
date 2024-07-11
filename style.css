@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+.bg_heart {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url("https://cabinascorobicicr.com/wp-content/uploads/2024/07/beach1.jpg");
+  background-size: 100vh 100vh;
+  background-size: cover;
+  z-index: -1;
+  animation: tusharcoding 55s infinite ease-in-out;
+}
+
+@keyframes tusharcoding {
+  0% {
+    background-image: url("https://cabinascorobicicr.com/wp-content/uploads/2024/07/beach1.jpg");
+  }
+  25% {
+    background-image: url("https://cabinascorobicicr.com/wp-content/uploads/2024/07/house.jpg");
+  }
+  50% {
+    background-image: url("https://cabinascorobicicr.com/wp-content/uploads/2024/07/trees1.jpg");
+  }
+  80% {
+    background-image: url("https://cabinascorobicicr.com/wp-content/uploads/2024/07/park1.jpg");
+  }
+}
+
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  color: white; /* Color del texto */
+  font-size: 22px; /* Tamaño de fuente */
+  text-align: center; /* Alinea el texto en el centro */
+  font-family: cursive;
+}
