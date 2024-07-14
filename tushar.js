@@ -10,7 +10,7 @@ function typeWriter() {
     else if (txt1.charAt(i) == ">")
       document.getElementById("text1").innerHTML = "";
     else if (txt1.charAt(i) == "|") {
-      $(".bg_heart").css("background-image", "')");
+      $(".bg_heart").css("background-color", "')");
     } else document.getElementById("text1").innerHTML += txt1.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
